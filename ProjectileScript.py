@@ -19,8 +19,8 @@ y_val = v0 * np.sin(launchAngle) * t - 0.5 * g * t ** 2
 
 fig, ax = plt.subplots()
 ax.plot(x_val, y_val)
-ax.set_xlabel('x ')
-ax.set_ylabel('y ')
+ax.set_xlabel('x (m)')
+ax.set_ylabel('y (m)')
 
 
 plt.show()
